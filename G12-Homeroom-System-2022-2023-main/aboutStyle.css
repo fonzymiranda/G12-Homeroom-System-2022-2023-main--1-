@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(sti.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;	
+}
+
+.navigatebar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 10px;
+    float: left;
+    height: 10px;
+}
+
+
+.logo{
+    float: right;
+    padding-top: 5px;
+    margin-top: 5px
+	
+}
+img {
+	width:90px;
+	height: 50px;
+}
+
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: blue;
+}
+
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: yellow;
+    position: relative;
+}
+.content .sen{
+   text-align:center;
+    font-family: calibri body;
+	font-size: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+	color: white;
+}
+
+.content h1{
+    font-family: times new roman;
+    font-size: 50px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+	color:white;
+	text-align:center;
+}
